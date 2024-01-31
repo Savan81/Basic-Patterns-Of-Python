@@ -1,0 +1,17 @@
+# 1 
+
+# 1 2
+
+# 1 2 3
+
+# 1 2 3 4
+
+# 1 2 3 4 5
+
+for i in range(1,6): # Outer (Row's) - Start's from 1 and end's at 5
+
+    for j in range(1,i+1): # Inner (Colum's)
+
+        print(j, end=' ') # End For End Character
+        
+    print("\n") # New Line 
